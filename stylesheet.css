@@ -1,0 +1,87 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+header {
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header-logo {
+  color: red;
+  font-size: 30px;
+  float: left;
+  padding: 10px 20px;
+}
+
+.header-list  {
+  float: left;
+}
+
+.header-list ul {
+  text-decoration: none;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 40px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-list li a {
+color: white;
+  text-decoration: none;
+}
+
+.header-list li a:hover {
+color: red;
+}
+
+main {
+  background-color: green;
+  height: 900px;
+}
+
+footer {
+  background-color: red;
+  height: 80px;
+}
+
+.footer-logo {
+  color: white;
+  font-size: 25px;
+  float: left;
+  padding: 10px 20px;
+}
+
+.footer-list {
+color: blue;
+float: right;
+padding: 5px;
+margin: 5px;
+}
+
+.footer-list li {
+list-style: none;
+}
+
+.footer-list li a {
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
